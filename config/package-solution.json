@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "rest-2",
+    "id": "4951f344-696f-436d-91f6-0bb0aed86150",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+    {
+      "resource": "chiverton365-preferences-eastus",
+      "scope": "user_impersonation"
+    },
+    {
+      "resource": "chiverton365-preferences-japaneast",
+      "scope": "user_impersonation"
+    }
+  ]
+  },
+  "paths": {
+    "zippedPackage": "solution/rest-2.sppkg"
+  }
+}
